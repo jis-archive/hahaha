@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: Bug report
 about: Reporting a bug for this project
 title: "[BUG]"
 labels: bug
