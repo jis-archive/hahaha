@@ -1,6 +1,11 @@
-from typing import Union
+from typing import Union, Optional
 
-def add(x: Union[int, float], y: Union[int, float]) -> Union[int, float]:
+def add(x: Union[int, float], y: Union[int, float]) -> Optional[Union[int, float]]:
+    try:
+        result = x + y
+    except Exception as e:
+        print(e)
+        return None
     return x + y
 
 if __name__ == "__main__":
